@@ -8,7 +8,6 @@ apt-get install -y liblxc1 lxc-dev lxc lxc-templates wget ca-certificates
 
 lxc-ls -f
 
-go version
 
 
 cd /usr/local
