@@ -2,11 +2,11 @@
 
 set -o errexit
 
-apt-get update || true
+# apt-get update || true
 
-apt-get install -y liblxc1 lxc-dev lxc lxc-templates wget ca-certificates
+# apt-get install -y liblxc1 lxc-dev lxc lxc-templates wget ca-certificates
 
-lxc-ls -f
+# lxc-ls -f
 
 
 
