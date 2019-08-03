@@ -11,6 +11,10 @@ jobs:
           command: |
             whoami
       - run:
-          name: work
+          name: setup
           command: |
             sudo -E bash ./test.sh
+      - run:
+          name: gotest
+          command: |
+            go version
